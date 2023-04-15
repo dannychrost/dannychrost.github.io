@@ -1,0 +1,35 @@
+body {
+  background-color: #f8ead8;
+  text-align: center;
+}
+.imgBio {
+  margin: 0 auto;
+  width: 100%;
+  height: 0 auto;
+}
+hr {
+  color: #a7727d;
+  border-style: dashed none none;
+  border-width: 10px;
+  width: 60%;
+}
+.big-break {
+  height: 20px;
+  display: block;
+  content: "";
+}
+.danielsLinkedInPicture {
+  height: auto;
+  width: 30%;
+}
+@media (max-width: 900px) {
+  .danielsLinkedInPicture {
+    width: 250px;
+  }
+}
+.progLangs {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
